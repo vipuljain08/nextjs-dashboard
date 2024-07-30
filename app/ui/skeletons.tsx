@@ -21,10 +21,10 @@ export function CardSkeleton() {
 export function CardsSkeleton() {
   return (
     <>
-      <CardSkeleton />
-      <CardSkeleton />
-      <CardSkeleton />
-      <CardSkeleton />
+      <CardSkeleton key={1} />
+      <CardSkeleton key={2} />
+      <CardSkeleton key={3}/>
+      <CardSkeleton key={4}/>
     </>
   );
 }
