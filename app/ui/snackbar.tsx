@@ -11,13 +11,7 @@ export default function SimpleSnackbar() {
     setOpen(true);
   };
 
-  const handleClose = (event, reason) => {
-    if (reason === 'clickaway') {
-      return;
-    }
-
-    setOpen(false);
-  };
+  const handleClose = () => setOpen(false)
 
   const action = (
     <React.Fragment>
